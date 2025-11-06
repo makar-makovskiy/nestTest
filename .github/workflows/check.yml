@@ -35,5 +35,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo secrets
-        runs: echo {{ secrets.antomio_anonimus }}
+        runs: echo {{ secrets.ANTONIO_ANONIMUS }}
       
