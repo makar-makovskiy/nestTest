@@ -31,3 +31,9 @@ jobs:
         run: npm ci
       - name: test
         run: npm run test
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo secrets
+        runs: echo {{ secrets.antomio_anonimus }}
+      
